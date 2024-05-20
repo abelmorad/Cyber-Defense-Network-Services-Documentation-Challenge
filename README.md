@@ -6,34 +6,33 @@
 
 ## 2. Setup
 - **Environment**: Kali Linux via VirtualBox
-- **Accounts and Access**: Created a TryHackMe account and accessed the room via OpenVPN.
+- **Accounts and Access**: Created a TryHackMe account and accessed the room via OpenVPN
 
 ## 3. Challenge Walkthrough
 
 ### 3.1 Room Name: Network Services
-- **Objective**: Learn about, then enumerate, and exploit a variety of network services and misconfigurations.
+- **Objective**: Learn about, then enumerate, and exploit a variety of network services and misconfigurations
 
 ### 3.2 Enumeration
 - **Initial Scanning**:
   - **Tools and Commands**: 
-	- Enum4linux 
+	- `Enum4linux `
 	- `enum4linux -U 10.10.242.131`
 	- `enum4linux -a 10.10.242.131`
   - **Findings**:
-	- Learned that users are: administrator, guest, krbtgt, domain admins, root, bin, none. 
+	- Users are: administrator, guest, krbtgt, domain admins, root, bin, none
 	- No password 
 	- Workgroup name is WORKGROUP
 	- Name of machine is polosmb
 	- OS running on version 6.1
-	- SMB port is running on ports 139 and 445 
-	- Ports that are open:
-		22/tcp  open  ssh
-		139/tcp open  netbios-ssn
-		445/tcp open  microsoft-ds
+	- ***Ports that are open***:
+		- 22/tcp  open  ssh
+		- 139/tcp open  netbios-ssn
+		- 445/tcp open  microsoft-ds
 	- Users profiles is shared in the SMB with the sharename 'profiles'
 
 ### 3.3 Exploitation
-- **Vulnerability Identification**: CVE-2017-7494 
+- **Vulnerability Identification**: [CVE-2017-7494 (https://nvd.nist.gov/vuln/detail/CVE-2017-7494)]
   - **Techniques Used**:  exploiting anonymous SMB share access- a common misconfiguration that can allow us to gain information that will lead to a shell.
 
 - **Exploitation Process**:
