@@ -36,7 +36,6 @@
   - **Techniques Used**:  exploiting anonymous SMB share access- a common misconfiguration that can allow us to gain information that will lead to a shell.
 
 - **Exploitation Process**:
-- **Commands and Payloads**: 
 - Enter to access SMB `smbclient //10.10.242.131/ Anonymous -U profiles`
 - Press enter on the password because there is no password set
 - Enter `ls -a` to show files and hidden files
