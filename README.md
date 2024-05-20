@@ -37,11 +37,11 @@
 
 - **Exploitation Process**:
   - **Commands and Payloads**: 
-  - **Screenshots**: !Exploitation Step
-	- Enter to access smb smbclient //10.10.242.131/ Anonymous -U profiles
+  - **Screenshots**:
+	- Enter to access SMB smbclient //10.10.242.131/ Anonymous -U profiles
 	- Press Enter on Password
 	- Enter ls -a to show files and hidden files
-
+![Screenshot 2024-05-20 183213](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/ef9f7522-8502-429f-bc32-cad423820baa)
 - Type get “Working From Home Information” to download to your download           folder
 - Enter ‘cat Working From Home Information.txt’ to view the text file in your 
 
