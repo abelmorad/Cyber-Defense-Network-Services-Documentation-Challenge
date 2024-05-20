@@ -15,8 +15,10 @@
 
 ### 3.2 Enumeration
 - **Initial Scanning**:
-  - **Tools and Commands**: 
-	- `Enum4linux `
+  - **Tools and Commands**:
+    Port Scanning:
+    	- `nmap -Pn 10.10.242.131`
+    SMB Enumeration: 
 	- `enum4linux -U 10.10.242.131`
 	- `enum4linux -a 10.10.242.131`
   - **Findings**:
