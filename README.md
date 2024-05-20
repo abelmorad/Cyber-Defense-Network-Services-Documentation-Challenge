@@ -49,16 +49,8 @@
 	- To download type get id_rsa
 ![Screenshot 2024-05-20 183844](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/ba82f020-cde0-452d-948c-5f08794d993d)
 	- Type chmod 600 id_rsa to change the permissions
-
-	
-
-
-
-
-
-
-
-- Type ssh cactus@10.10.242.131 -i id_rsa to access the server
+![chmod](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/c0217817-5203-46c4-9743-66995a57566a)
+	- Type ssh cactus@10.10.242.131 -i id_rsa to access the server
 
 	- Type ls  to show files then cat smb.txt to view text file
 
