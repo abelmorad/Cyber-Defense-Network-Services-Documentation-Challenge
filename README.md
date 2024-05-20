@@ -19,8 +19,8 @@
     - Port Scanning:
     	- `nmap -Pn 10.10.242.131`
     - SMB Enumeration: 
-	- `enum4linux -U 10.10.242.131`
-	- `enum4linux -a 10.10.242.131`
+		- `enum4linux -U 10.10.242.131`
+		- `enum4linux -a 10.10.242.131`
   - **Findings**:
 	- Users are: administrator, guest, krbtgt, domain admins, root, bin, none
 	- No password 
