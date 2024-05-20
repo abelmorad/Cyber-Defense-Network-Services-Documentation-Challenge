@@ -40,19 +40,27 @@
 	- Press enter on the password because there is no password set
 	- Enter `ls -a` to show files and hidden files
 ![Screenshot 2024-05-20 183213](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/ef9f7522-8502-429f-bc32-cad423820baa)
+
 	- Type `get Working From Home Information` to download to your download folder
 ![Screenshot 2024-05-20 182845](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/1d7c5b9c-018a-4ab7-959a-64dbbc710cea)
+
 	- Enter `cat Working From Home Information.txt` in the terminal to view the text file
 ![Screenshot 2024-05-20 184207](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/417d6c7f-e9c6-491a-80bc-dbd43424dc9b)
+
 	- Type `open .ssh` to access directory
 ![Screenshot 2024-05-20 183844](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/a871111d-92af-4503-8973-c949870cfb41)
+
 	- To download type get id_rsa
 ![Screenshot 2024-05-20 183844](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/ba82f020-cde0-452d-948c-5f08794d993d)
+
 	- Type chmod 600 id_rsa to change the permissions
 ![chmod](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/c0217817-5203-46c4-9743-66995a57566a)
+
 	- Type ssh cactus@10.10.242.131 -i id_rsa to access the server
+![Screenshot 2024-05-20 190916](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/b61b84c7-f850-4c50-b0bd-147bcbfecbfd)
 
 	- Type ls  to show files then cat smb.txt to view text file
+![Screenshot 2024-05-20 191157](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/145c3e10-0603-4e3e-a297-f55fee5498ee)
 
 
 ## 4. Analysis and Reflection
