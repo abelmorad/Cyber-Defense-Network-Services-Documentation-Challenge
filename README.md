@@ -36,10 +36,10 @@
   - **Techniques Used**:  exploiting anonymous SMB share access- a common misconfiguration that can allow us to gain information that will lead to a shell.
 
 - **Exploitation Process**:
-  - **Commands and Payloads**: 
-	- Enter to access SMB `smbclient //10.10.242.131/ Anonymous -U profiles`
-	- Press enter on the password because there is no password set
-	- Enter `ls -a` to show files and hidden files
+- **Commands and Payloads**: 
+- Enter to access SMB `smbclient //10.10.242.131/ Anonymous -U profiles`
+- Press enter on the password because there is no password set
+- Enter `ls -a` to show files and hidden files
 ![Screenshot 2024-05-20 183213](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/ef9f7522-8502-429f-bc32-cad423820baa)
 - Type `get Working From Home Information` to download to your download folder
 ![Screenshot 2024-05-20 182845](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/1d7c5b9c-018a-4ab7-959a-64dbbc710cea)
