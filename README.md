@@ -32,7 +32,7 @@
 	- Users profiles is shared in the SMB with the sharename 'profiles'
 
 ### 3.3 Exploitation
-- **Vulnerability Identification**: [CVE-2017-7494 (https://nvd.nist.gov/vuln/detail/CVE-2017-7494)]
+- **Vulnerability Identification**: [CVE-2017-7494](https://nvd.nist.gov/vuln/detail/CVE-2017-7494)
   - **Techniques Used**:  exploiting anonymous SMB share access- a common misconfiguration that can allow us to gain information that will lead to a shell.
 
 - **Exploitation Process**:
