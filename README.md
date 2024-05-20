@@ -1,4 +1,4 @@
-# TryHackMe Documentation: Cyber Defense #1
+# Documentation: TryHackMe Cyber Defense #01
 
 ## 1. Introduction
 - **Purpose**: Document my experience and share knowledge on the Cyber Defense challenge.
