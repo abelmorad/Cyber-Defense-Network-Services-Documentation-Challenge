@@ -11,7 +11,7 @@
 ## 3. Challenge Walkthrough
 
 ### 3.1 Room Name: Network Services
-- **Objective**: Learn about, then enumerate, and exploit a variety of network services and misconfigurations
+- **Objective**: Access a server and capture the flag by enumerating an SMB and exploiting its vulnerabilities to gain elevated access to exfiltrate data and capture the flag.
 
 ### 3.2 Enumeration
 - **Initial Scanning**:
@@ -37,7 +37,6 @@
 
 - **Exploitation Process**:
   - **Commands and Payloads**: 
-  - **Screenshots**:
 	- Enter to access SMB `smbclient //10.10.242.131/ Anonymous -U profiles`
 	- Press enter on the password because there is no password set
 	- Enter `ls -a` to show files and hidden files
@@ -47,9 +46,10 @@
 - Enter `cat Working From Home Information.txt` in the terminal to view the text file
 ![Screenshot 2024-05-20 184207](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/417d6c7f-e9c6-491a-80bc-dbd43424dc9b)
 - Type `open .ssh` to access directory
+![Screenshot 2024-05-20 183844](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/a871111d-92af-4503-8973-c949870cfb41)
 - To download type get id_rsa
-
-	- Type chmod 600 id_rsa to change the permissions
+![Screenshot 2024-05-20 183844](https://github.com/abelmorad/Cyber-Defense-Network-Services-Documentation-Challenge/assets/110463619/ba82f020-cde0-452d-948c-5f08794d993d)
+- Type chmod 600 id_rsa to change the permissions
 
 	
 
