@@ -1,4 +1,4 @@
-# TryHackMe Documentation: Cyber Defense 
+# TryHackMe Documentation: Cyber Defense #1
 
 ## 1. Introduction
 - **Purpose**: Document my experience and share knowledge on the Cyber Defense challenge.
@@ -37,7 +37,7 @@
 
 - **Exploitation Process**:
   - **Commands and Payloads**: 
-  - **Screenshots**: ![Exploitation Step]
+  - **Screenshots**: !Exploitation Step
 	- Enter to access smb smbclient //10.10.242.131/ Anonymous -U profiles
 	- Press Enter on Password
 	- Enter ls -a to show files and hidden files
