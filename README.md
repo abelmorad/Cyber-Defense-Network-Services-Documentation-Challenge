@@ -11,7 +11,7 @@
 ## 3. Challenge Walkthrough
 
 ### 3.1 Room Name: Network Services
-- **Objective**: Access a server and capture the flag by enumerating an SMB and exploiting its vulnerabilities to gain elevated access to exfiltrate data and capture the flag.
+- **Objective**: Access a server and capture the flag by enumerating an SMB and exploiting its vulnerabilities to exfiltrate sensitive data and gain access to the server and capture the flag
 
 ### 3.2 Enumeration
 - **Initial Scanning**:
