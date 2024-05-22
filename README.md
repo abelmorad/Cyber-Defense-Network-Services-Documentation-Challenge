@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 - **Purpose**: Document my experience and share knowledge on the Cyber Defense challenges
-- **Scope**:  Learn the fundamental components of detecting and responding to threats in a corporate environment.
+- **Scope**:  Learn the fundamental components of detecting and responding to threats in a corporate environment
 
 ## 2. Setup
 - **Environment**: Kali Linux via VirtualBox
