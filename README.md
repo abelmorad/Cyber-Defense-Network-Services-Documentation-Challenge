@@ -1,4 +1,4 @@
-# Documentation: TryHackMe Cyber Defense #01
+# Documentation: Exploiting SMB #01
 
 ## 1. Introduction
 - **Purpose**: Document my experience and share knowledge on the Cyber Defense challenges
