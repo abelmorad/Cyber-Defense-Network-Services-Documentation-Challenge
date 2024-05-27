@@ -66,7 +66,7 @@
 
 
 ## 4. Analysis and Reflection
-- **Challenges Faced**: Difficulty in identifying the exact version of Apache.
+- **Challenges Faced**: Difficulty comprehending instructions and which commands to use
 - **Learnings**: Importance of thorough enumeration.
 - **Improvements**: Try alternative enumeration techniques earlier.
 
